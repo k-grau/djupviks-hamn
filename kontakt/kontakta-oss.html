@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sv" class="djupvik">
+    <head>
+        <meta charset="UTF-8">
+        <title>Djupviks hamn - kontakta oss</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <script src="../assets/js/index.js" type="module"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="header-logo-container">
+                    <h1><a class="top-link" href="../index.html">Djupviks hamn</a></h1>
+                    <img class="logo" src="../assets/img/icons/logo.jpg" alt="Logo, djupviks hamn" />
+                </div>
+                <div class="menu-icon-container">
+                    <img class="menu-icon" src="../assets/img/icons/hamburger-menu.png" alt="Ikon för navigeringsmeny" />
+                </div>
+                <p class="large-screens">Den lilla hamnen med de stora upplevelserna</p>
+            </header>
+
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="../index.html">Hem</a></li>
+                    <li><a href="../gasthamn/hamn.html">Gästhamn</a></li>
+                    <li><a href="../turism/turistmal.html">Turism</a></li>
+                    <li><a href="../in-english/information.html">In English</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="../medlemsinformation/medlemsoversikt.html">Medlemsinformation</a></li>
+                </ul>
+            </nav>
+
+            <main id="contact-main">
+                <h2>Kontakta oss</h2>
+                <section id="contact-form-section">
+                    <h3>Via formulär:</h3>
+                    <form method="post" id="contact-form">
+                      <h4>Vad gäller kontakten?</h4>
+                      <p>
+                          <label for="form-header">Ämne:</label>
+                          <input type="text" id="form-header" name="form-header" placeholder="Rubrik för kontakt" required/>
+                      </p>
+
+                        <ul>
+                            <li><label for="båtplats"><input type="radio" name="form-issue-option" value="båtplats" id="båtplats" required/> Båtplats </label></li>
+                            <li><label for="medlem"><input type="radio" name="form-issue-option" value="medlem" id="medlem"> Medlem </label></li>
+                            <li><label for="övrigt"><input type="radio" name="form-issue-option" value="övrigt" id="övrigt"> Övrigt </label></li>
+                        </ul>
+
+                        <p>
+                          <label for="form-issue">Beskrivning:</label>
+                          <textarea id="form-issue"  name="form-issue" rows="3" cols="30" placeholder="Kort beskrivning av ärendet" required></textarea>
+                      </p>
+
+                        <h4>Ange dina kontaktuppgifter</h4>
+                            <p>
+                              <label for="form-email">E-post:</label>
+                              <input type="email" id="form-email" name="form-email" placeholder="Din e-postaddress" required/>
+                          </p>
+
+                            <p>
+                              <label for="form-phone">Telefon:</label>
+                              <input type="tel" id="form-phone" name="form-phone" placeholder="Ditt telefonnummer" required/>
+                          </p>
+
+                      <h4>Hur vill du bli kontaktad?</h4>
+                      <ul>
+                        <li><label for="mejl"><input type="radio" name="form-contact-option" value="mejl" id="mejl" required /> Mejl </label></li>
+                        <li><label for="telefon"><input type="radio" name="form-contact-option" value="telefon" id="telefon"> Telefon </label></li>
+                        <li><label for="inte-alls"><input type="radio" name="form-contact-option" value="inte-alls" id="inte-alls"> Inte alls </label></li>
+                      </ul>
+
+                      <ul id="buttons">
+                        <li>
+                          <input type="Submit" name="submit" value="Skicka">
+                        </li>
+                        <li>
+                          <input type="Reset" name="reset" value="Rensa">
+                        </li>
+                      </ul>
+                </form>
+                </section>
+                <section id="contact-details-section" class="box-yellow">
+                    <h3>Kontakt</h3>
+                    <h4>Kontaktperson</h4>
+                    <p>Bo Lautin, hamnfogde</p>
+                    <h4>Telefon</h4>
+                    <p>0707-920310</p>
+                    <h4>Postaddress</h4>
+                    <p>
+                        Djupviks hamnförening
+                        <br />
+                        c/o Ekholm
+                        <br />
+                        Eksta Hägur 170
+                        <br />
+                        623 54 Klintehamn
+                    </p>
+                </section>
+            </main>
+
+            <footer>
+                <div class="copyright">
+                    <p>Copyright: Djupvikshamn.se</p>
+                    <p>Epost: <a href="mailto:info@djupvikshamn.se">info@djupvikshamn.se</a></p>
+                </div>
+                <nav class="bottom-nav">
+                    <ul>
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="../medlemsinformation/medlemsoversikt.html">Medlemsinformation</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div><!-- container slut -->
+    </body>
+</html>

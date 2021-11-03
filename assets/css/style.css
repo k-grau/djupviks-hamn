@@ -1,0 +1,964 @@
+/* Grundlayout och layout anpassad för mobiler/enheter
+upp till 767px i bredd. */
+
+html {
+    font-size: 105%;
+}
+
+
+body {
+    font-family: 'Lato', cursive;
+    line-height: 1.4rem;
+    background-color: #3C0000;
+}
+
+
+header {
+    background-color: #8A9BC9;
+}
+
+
+main {
+    background-color: #EDFFFF;
+}
+
+main {
+    padding: 1.5rem 1.5rem 1.5rem;
+}
+
+aside {
+    margin-top: 1.5rem;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Concert One', cursive;
+}
+
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.9rem;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    margin-right: 2.5rem;
+}
+
+
+a {
+    color: #525252;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+}
+
+
+figcaption {
+    margin-bottom: 1.3rem;
+    line-height: 0.4rem;
+}
+
+
+nav {
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 0.2rem;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+nav ul li{
+    padding: 0.5rem 0.5rem;
+}
+
+
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+
+form h4 {
+    margin-top: 1rem;
+}
+
+
+form ul, form a {
+    margin-top: 0.7rem;
+}
+
+
+img, textarea, form, table, .box-yellow, .menu-icon, input[type=text],
+[type=tel], [type=email], [type=submit], [type=reset] {
+    border-radius: 0.3rem;
+}
+
+
+textarea, input[type=text], [type=tel], [type=email] {
+    width: 90%;
+    padding: 0.8rem;
+}
+
+
+input[type=submit], [type=reset] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1.2rem;
+    box-shadow: 0rem 0.1rem 0.3rem #888888;
+    color: #ffff;
+}
+
+
+input[type=submit] {
+    background-color: #6A6931;
+}
+
+
+input[type=reset] {
+    background-color: #FF2D2D;
+}
+
+
+input[type=submit]:hover, [type=reset]:hover, [type=submit]:focus, [type=reset]:focus {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+footer {
+    padding: 1.1rem 1.5rem 0.5rem 1.5rem;
+}
+
+
+footer p {
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+header img:nth-child(2), .menu-icon-container {
+    position: relative;
+}
+
+header img:nth-child(2) {
+    top: -0.2rem;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+
+header img:nth-child(2), #tourism-main article:last-child {
+  border: none;
+
+}
+
+header img:nth-child(2), #tourism-main article:last-child {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+
+#history-section{
+    margin-bottom: 1.2rem;
+}
+
+
+#history-section h2, article {
+    margin-bottom: 1.8rem;
+}
+
+
+#name-legend-section ul li {
+    margin-bottom: 0.4rem;
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+
+#contact-form ul:nth-child(3) > li:nth-child(3) {
+    margin-bottom: 1.6rem;
+}
+
+
+.header-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.menu-icon-container {
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    clear: both;
+    bottom: 3.2rem;
+    right: 0.2rem;
+}
+
+
+.menu-icon {
+    border-color: inherit;
+    border-width: 2px;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.large-screens, .logo, .desktop-only, .top-nav, .bottom-nav {
+    display: none;
+}
+
+
+.box-yellow, tr:nth-child(odd) {
+    background-color: #FFE976;
+}
+
+
+#picture-grid {
+    display: block;
+}
+
+
+h1, h1 > a, header p, nav a, footer a {
+    color: #191919;
+}
+
+
+h1 > a, nav a {
+    text-decoration: none;
+}
+
+
+img+p {
+    padding-top: 0.5rem;
+}
+
+
+nav, footer {
+    border-top: 1px solid #C8C8C8;
+}
+
+nav, footer {
+    background-color: #B5B47A;
+}
+
+
+nav a:hover, nav a:focus, input[type=submit]:hover, [type=reset]:hover, [type=submit]:focus, [type=reset]:focus {
+    cursor: pointer;
+}
+
+
+nav a:hover, nav a:focus {
+    color: #ffffff;
+}
+
+
+figure > picture > img, #history-section img {
+    margin-bottom: 0.1rem;
+}
+
+
+header, nav, tr, #welcome-text, #contact-form-section, #history-section article, #tourism-main article {
+    border-bottom: 1px solid #C8C8C8;
+}
+
+tbody > tr:last-child, #history-section article:nth-child(3) {
+    border-bottom: none;
+}
+
+
+#contact-form-section, #guest-port-main, #tourism-main article, #history-section article {
+    padding-bottom: 1.5rem;
+}
+
+#welcome-text {
+    padding-bottom: 0.7rem;
+}
+
+
+main+h2, #member-table {
+    margin-top: 2rem;
+}
+
+
+p, nav ul, #name-legend-section h4, #contact-form-section h4, textarea, input[type=submit], [type=reset], [type=text], [type=tel], [type=email] {
+    font-size: 1rem;
+}
+
+
+p, #name-legend-section h4, #contact-form-section h4, textarea, [type=reset], [type=text], [type=tel], [type=email] {
+    margin-bottom: 0.7rem;
+}
+
+
+h4, .date {
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+
+
+header, .box-yellow {
+    padding: 0.5rem 1.1rem 0.5rem 0.9rem;
+}
+
+
+a, header p, .bold-font, th, td:before {
+    font-weight: 900;
+}
+
+
+figcaption, footer p, .date, .small-font {
+    font-size: 0.8rem;
+}
+
+
+nav ul, footer p, figcaption, input[type=submit], [type=reset], .date {
+    font-weight: bolder;
+}
+
+
+img, table, .box-yellow, textarea, input[type=text], [type=tel], [type=email], [type=submit], [type=reset] {
+    border: 1px solid #C8C8C8;
+}
+
+
+#welcome-text, #contact-form-section, #storm-night-text {
+    margin-bottom: 2.4rem;
+}
+
+
+/* Layout endast för enheter/mobiler
+upp till 767px i bredd. */
+@media (max-width: 767px) {
+
+    header {
+        padding-bottom: 1rem;
+    }
+
+    #contact-form-section h3 {
+        margin-top: 2rem;
+    }
+
+    #member-table td:nth-of-type(1):before {content:'Namn';}
+    #member-table td:nth-of-type(2):before {content:'E-post';}
+    #member-table td:nth-of-type(3):before {content:'Telefon';}
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+        word-wrap:break-word;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        padding-bottom: 4%;
+    }
+
+    tr, td {
+        padding-top: 2%;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+        padding-bottom: 2%;
+        margin-right: 2%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        white-space: nowrap;
+    }
+}
+
+
+/* Layout för enheter 768px eller mer i bredd och
+specefik layout för stående surfplattor */
+@media (min-width: 768px) {
+
+    html {
+        font-size: 125%;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        padding-top: 1rem;
+    }
+
+    h1, h2 {
+        line-height: 3rem;
+    }
+
+    h2 {
+        grid-column: 1/5;
+        font-size: 3.5rem;
+        grid-row: 1;
+        padding-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        margin-bottom: 1.7rem;
+        line-height: 2rem;
+    }
+
+    h4, p, h3 {
+        word-wrap: break-word;
+    }
+
+    header p{
+        margin-left: 0.2rem;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    footer {
+        grid-template-columns: 0.5fr 1fr;
+        padding: 0;
+    }
+
+    table {
+        border-collapse: separate;
+    }
+
+    th, td {
+        padding: 1rem;
+    }
+
+    th {
+        background-color: #C8C8C8;
+    }
+
+    td {
+        border-top: 1px solid #C8C8C8;
+    }
+
+    th, td, footer p {
+        text-align: left;
+    }
+
+    textarea, input[type=text], [type=tel], [type=email] {
+        padding: 0.8rem;
+    }
+
+    input[type=submit], [type=reset] {
+        width: 70%;
+    }
+
+    .container {
+        border-left: 2px solid #C8C8C8;
+        border-right: 2px solid #C8C8C8;
+    }
+
+    .logo, .top-nav, .bottom-nav {
+        display: block;
+    }
+
+    .bottom-nav {
+        grid-column: 2;
+        margin-left: 3rem;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .bottom-nav ul {
+        margin-top: 1.2rem;
+    }
+
+    .copyright p {
+        line-height: 1rem;
+    }
+
+    .menu-icon-container, .top-nav ul > :nth-last-child(-n+2), td:before {
+        display: none;
+    }
+
+    .copyright, .bottom-nav {
+        padding: 1.1rem 1.5rem 0.5rem 1.5rem;
+    }
+
+    .copyright {
+        grid-column: 1;
+        border-right: 3px solid #C8C8C8;
+    }
+
+   .container, #member-table {
+       margin: 0 auto;
+   }
+
+   .box-yellow, #history-section {
+       margin: 0rem;
+   }
+
+   h2, #contact-form ul:nth-child(10) {
+       text-align: center;
+   }
+
+   footer, #contact-form ul:nth-child(10),
+   #english-main, #contact-main, #contact-form, #picture-grid {
+       display: grid;
+   }
+
+   #home-main {
+       grid-template-columns: 1.1fr 1fr;
+   }
+
+   #english-main {
+       grid-template-columns: 1.3fr 1fr 1fr 1fr;
+   }
+
+   #tourism-main, #picture-grid {
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+
+   #contact-main {
+       grid-template-columns: 1fr 0.3fr;
+   }
+
+   #contact-form {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  #picture-grid, #history-section h2 {
+      margin-bottom: 1rem;
+  }
+
+  #tourism-main, #guest-port-main {
+      grid-column-gap: 2rem;
+  }
+
+  #tourism-main article, #contact-details-section {
+      min-width: 0;
+  }
+
+  #history-section article:nth-child(2) {
+      margin-bottom: 3rem;
+  }
+
+  #history-section h3, #history-section h4 {
+      column-span: all;
+  }
+
+  #history-section article:nth-child(2), #storm-night-text {
+      column-gap: 3rem;
+      column-rule: 1px solid #C8C8C8;
+  }
+
+  #storm-night-text, #name-legend-section {
+      column-count: 2;
+  }
+
+  #news-section {
+      padding-bottom: 2rem;
+  }
+
+  #picture-wrapper picture {
+      margin-top: 1rem;
+  }
+
+    #history-section figure {
+        float: right;
+        clear: both;
+        margin-left: 2rem;
+    }
+
+    #welcome-text {
+       grid-column: 1;
+       grid-row: 3;
+   }
+
+   #picture-grid {
+       grid-gap: 1rem;
+       grid-column: 1/3;
+   }
+
+   #picture-wrapper {
+        grid-column: 2;
+        grid-row: 3/6;
+    }
+
+    #news-section {
+        grid-row: 4;
+    }
+
+    #picture-grid picture:nth-child(1), #picture-grid picture:nth-child(2),
+    #picture-grid picture:nth-child(3) {
+        grid-row: 1;
+    }
+
+    #picture-grid picture:nth-child(1) {
+        grid-column: 1/3;
+    }
+
+    #picture-grid picture:nth-child(2) {
+        grid-column: 3/5;
+    }
+
+    #picture-grid picture:nth-child(3) {
+        grid-column: 5/7;
+    }
+
+    #tourism-main h2 {
+        grid-column: 1/7;
+    }
+
+    #tourism-main article:nth-child(2) {
+        grid-column: 1/3;
+    }
+
+    #tourism-main article:nth-child(3) {
+        grid-column: 3/5;
+    }
+
+    #tourism-main article:nth-child(4) {
+        grid-column: 5/7;
+    }
+
+    #tourism-main article:nth-child(5) {
+        grid-column: 1/4;
+    }
+
+    #tourism-main article:nth-child(6) {
+        grid-column: 4/7;
+    }
+
+    #contact-form {
+        grid-column-gap: 3rem;
+        border: 1px solid #C8C8C8;
+        padding: 0.5rem 1.1rem 0.5rem 0.9rem;
+    }
+
+    #contact-form-section h2, #contact-form-section, #contact-details-section {
+        grid-column: 1/3;
+    }
+
+    #contact-form h4:nth-child(1), #contact-form p:nth-child(2),
+    #contact-form ul:nth-child(3), #contact-form p:nth-child(4) {
+        grid-column: 1;
+    }
+
+    #contact-form h4:nth-child(5), #contact-form p:nth-child(6)
+    #contact-form p:nth-child(7), #contact-form h4:nth-child(8),
+    #contact-form ul:nth-child(9) {
+        grid-column: 2;
+    }
+
+    #contact-form h4:nth-child(5) {
+        grid-row: 1;
+    }
+
+    #contact-form p:nth-child(4) {
+        grid-row: 4/5;
+    }
+
+    #contact-form p:nth-child(2), #contact-form p:nth-child(6) {
+        grid-row: 2;
+    }
+
+    #contact-form ul:nth-child(3), #contact-form p:nth-child(7) {
+        grid-row: 3;
+    }
+
+    #contact-form h4:nth-child(8), #contact-form ul:nth-child(9) {
+        grid-row: 4;
+    }
+
+    #contact-form ul:nth-child(9) {
+        position: relative;
+        top: 2.8rem;
+    }
+
+    #contact-form ul:nth-child(10) {
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+
+    #buttons li:nth-child(1) {
+        grid-row: 1;
+    }
+
+    #buttons li:nth-child(2) {
+        grid-column: 2;
+    }
+
+    #english-text {
+        grid-column: 1/5;
+    }
+
+    #storm-night-text {
+        grid-column: 1;
+    }
+
+    #name-legend-section {
+        grid-column: 2/4;
+    }
+
+
+    /* Layout specefik för liggande surfplattor/enheter
+    1024px eller större i bredd. */
+    @media(min-width: 1024px) {
+        img {
+            margin: 0;
+        }
+
+        header img:nth-child(2) {
+            top: 0.8rem;
+        }
+
+        h2, #history-section article:nth-child(2) {
+            padding-bottom: 3rem;
+        }
+
+        .large-screens {
+            display: block;
+        }
+
+        .bottom-nav ul {
+            margin-top: 0.5rem;
+        }
+
+        #home-main, #tourism-main, #history-section article:nth-child(3) {
+              display: grid;
+          }
+
+          #tourism-main article {
+              border-bottom: none;
+              padding-bottom: 0;
+          }
+
+          #tourism-main article:nth-child(5), #tourism-main article:nth-child(6) {
+              border-top: 1px solid #C8C8C8;
+              padding: 2rem 4rem 0rem 2.5rem;
+          }
+
+
+          #history-section figure {
+              float: none;
+              text-align: center;
+              margin-left: 0rem;
+          }
+
+          #history-section article:nth-child(3) {
+              grid-template-columns: 1fr 0.3fr 0.3fr;
+              grid-gap: 2.5rem;
+          }
+
+          #history-section article:nth-child(2) {
+              column-count: 3;
+          }
+
+        #english-text picture {
+            float: right;
+            clear: both;
+            margin-left: 2.5rem;
+            width: 70%;
+        }
+
+        #welcome-text {
+             margin-right: 2.5rem;
+             padding-top: 0.4rem;
+         }
+
+        #news-section {
+            grid-column: 1/5;
+        }
+
+        /* Layout specefik för liggande surfplattor/enheter
+        som är maximalt 1279px breda. */
+        @media(max-width: 1279px) {
+            .tablet-max-1023 {
+                display: none;
+            }
+
+            #home-main {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            #welcome-text {
+                border-bottom: none;
+            }
+
+            #news-section, #news-section figure {
+                 grid-column: 1/5;
+                 grid-row: 4;
+             }
+
+             #news-section figure, #guest-port-main picture {
+                  float: right;
+                  clear: both;
+                  margin-left: 2rem;
+              }
+
+             #picture-wrapper {
+                  grid-column: 2;
+                  grid-row: 3;
+              }
+
+            #picture-grid picture:nth-child(1), #picture-grid picture:nth-child(2) {
+                grid-row: 1;
+            }
+
+            #picture-grid picture:nth-child(1) {
+                grid-column: 1/4;
+            }
+
+            #picture-grid picture:nth-child(2) {
+                grid-column: 4/7;
+            }
+
+            #guest-port-main picture {
+                width: 70%;
+            }
+
+            #storm-night-text {
+                width: 80%;
+                column-count: 1;
+                margin-right: 0rem;
+            }
+
+            #name-legend-section {
+                margin-left: 0rem;
+            }
+
+            #history-section article:nth-child(2) {
+                column-count: 2;
+            }
+
+            #history-section article:nth-child(3) {
+                grid-template-columns: 2fr 0.8fr 1fr;
+                grid-gap: 0rem;
+            }
+
+            /* Speciallayout för text att flyta runt
+            bild av konrad vid rätt storlek. */
+            @media(min-width: 1105px) {
+                #history-section figure {
+                    float: right;
+                    clear: both;
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+
+        /* Layout anpassad för datorer/enheter som är minst
+        1280px breda */
+        @media(min-width: 1280px) {
+
+            .desktop-only {
+                display: block;
+            }
+
+            #welcome-text {
+               padding-bottom: 1.2rem;
+           }
+
+            #news-section {
+                grid-column: 1;
+                margin-right: 2rem;
+            }
+
+            #guest-port-main {
+                display: grid;
+                grid-template-columns: 1.4fr 1fr;
+            }
+
+            #guest-port-main h2 {
+                grid-column: 1/4;
+                grid-row: 1;
+            }
+
+            #guest-port-text {
+                grid-column: 1/2;
+            }
+
+            #guest-port-text {
+                grid-row: 2/4;
+            }
+
+            #guest-port-main picture {
+                margin: 0rem;
+                grid-column: 2;
+                grid-row: 2/6;
+            }
+
+
+            #contact-form-section {
+                border-bottom: none;
+                margin-right: 3rem;
+                grid-row: 2/4;
+                grid-column: 1;
+            }
+
+            #contact-details-section {
+                grid-column: 2;
+                grid-row: 2;
+                margin-top: 12.2rem;
+            }
+
+            #member-table {
+                width: 55%;
+            }
+        }
+
+    /* Speciallayout för att få containern att krympa
+    vid lämplig bredd */
+    @media(min-width: 1490px) {
+        .container {
+            width: 85%;
+        }
+    }
+
+    /* Speciallayout för att få text att flyta snyggt
+    runt bild av hamnens dag vid lämplig storlek */
+    @media(min-width: 1700px) {
+        #news-section figure {
+            float: right;
+            clear: both;
+            margin-left: 2rem;
+        }
+    }
+
+    /* Speciallayout för att krympa container ytterligare samt
+    ta bort bild av livboj på startsida vid mycket stora skärmstorlekar */
+    @media(min-width: 2255px) {
+        #picture-wrapper picture:nth-of-type(3) {
+            display: none;
+        }
+
+        .container {
+            width: 80%;
+        }
+    }
+}
