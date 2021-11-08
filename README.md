@@ -6,5 +6,5 @@ Utilizes SMHI:s (Swedish Meteorological and Hydrological Institute) open api to 
 
 Website language is Swedish.
 
-Please not that the pictures used in this project was NOT taken by me. They were provided by the instructing professor of the course Dynamiska webbapplikationer at Uppsala university: https://www.uu.se/utbildning/utbildningar/selma/kurser/?kKod=2IS220&typ=1
+Please note that the pictures used in this project was NOT taken by me. They were provided by the instructing professor of the course Dynamiska webbapplikationer at Uppsala university: https://www.uu.se/utbildning/utbildningar/selma/kurser/?kKod=2IS220&typ=1
 
